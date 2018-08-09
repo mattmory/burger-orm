@@ -1,0 +1,57 @@
+Arguments: 
+  /usr/local/Cellar/node/10.7.0/bin/node /usr/local/bin/yarn add express
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  10.7.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/mmory/Desktop/AZBootCamp/gitRepositories/burger-orm/package.json: Unexpected token } in JSON at position 639
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:92:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:103:13
+
+npm manifest: 
+  {
+    "name": "burger_orm",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mattmory/burger_orm.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/mattmory/burger_orm/issues"
+    },
+    "homepage": "https://github.com/mattmory/burger_orm#readme",
+    "dependencies": {
+      "body-parser": "^1.18.3",
+      "express": "^4.16.3",
+      "express-handlebars": "^3.0.0",
+      "mysql": "^2.16.0",
+      "path": "^0.12.7",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
